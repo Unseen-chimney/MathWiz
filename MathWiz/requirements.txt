@@ -1,0 +1,29 @@
+# Essential dependencies for MathWiz prototype
+# Install in stages if disk space is limited
+
+# FastAPI and web framework
+fastapi>=0.109.0
+uvicorn>=0.27.0
+pydantic>=2.5.3
+pydantic-settings>=2.1.0
+
+# Streamlit UI
+streamlit>=1.30.0
+
+# Database
+sqlalchemy>=2.0.25
+
+# Utilities
+python-dotenv>=1.0.0
+
+# LLM providers (optional - install only what you need)
+# openai>=1.10.0
+# anthropic>=0.18.0
+# google-generativeai>=0.3.0
+
+# Vector database and embeddings (optional - for RAG features)
+# chromadb>=0.4.22
+# sentence-transformers>=2.3.1
+
+# PDF processing (optional - for document upload)
+# PyPDF2>=3.0.1
